@@ -1,0 +1,138 @@
+body {
+  background-color: #E0F7FA;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.brand-img {
+  width: 30%;
+  padding-left: 10px;
+}
+
+#landing-page-gallery {
+  padding-top: 3rem;
+}
+
+/* .nav-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: #00796B;
+  font-size: 1.1rem;
+  color: white;
+}*/
+
+.nav-item:hover {
+  background-color: #004D40;
+} 
+
+/* General Reset */
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#product-demo {
+  padding: 20px;
+  width: 1280px;
+  margin: 40px auto;
+}
+
+section ul {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+section ul li {
+  list-style: none;
+  font-size: 1.1rem;
+  padding: 30px 20px;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  /* background-color: #004D40; */
+  color: black;
+  border-radius: 5px;
+}
+
+section ul li.active {
+  font-weight: bold;
+  background-color: #00796B;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product .itemBox {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+}
+
+.product .itemBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Newsletter */
+#newsletter {
+  background-color: #00796B;
+  padding: 50px 20px;
+  color: white;
+}
+
+.newsletter-org-logo {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+}
+
+.newsletter-body {
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.newsletter-body h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.newsletter-signup {
+  background-color: white;
+  color: #00796B;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter-signup input[type="email"] {
+  padding: 10px;
+  width: calc(100% - 22px);
+  margin-bottom: 20px;
+  border: 2px solid #00796B;
+  border-radius: 5px;
+}
+
+.newsletter-signup button {
+  background-color: #00796B;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.newsletter-signup button:hover {
+  background-color: #004D40;
+}
